@@ -34,5 +34,5 @@ def search(url):
 
 for i in range(0,226,25):
     url = 'http://movie.douban.com/top250?start='+str(i)+'&filter='
-    print(url)
+    # print(url)
     search(url)# 把一个url的处理逻辑搞成一个方法。然后传给他url地址即可。
